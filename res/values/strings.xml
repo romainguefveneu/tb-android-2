@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Gordon 2</string>
+
+    <!-- Parkings -->
+    <string name="parking">Parking</string>
+    <string name="parking_relai">Parking relai</string>
+    <string name="parking_ferme">Fermé</string>
+    <string name="parking_abonne">Abonnés</string>
+    <string name="parking_invalide">Information non disponible</string>
+    <string name="parking_places_disponibles_zero">C\'est plein !</string>
+    <string name="parking_places_disponibles_na">Aucune info disponible</string>
+
+    <plurals name="parking_places_disponibles">
+        <item quantity="one">1 place restante, dépéchez-vous !</item>
+        <item quantity="other">%d places disponibles</item>
+    </plurals>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultLine">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="DefaultLine.Content">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ItemSymbole">
+        <item name="android:textSize">23dip</item>
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:layout_alignParentTop">false</item>
+        <item name="android:layout_gravity">center|center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center|center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="ItemPrimaryText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ItemPrimaryText.SingleLine">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ItemSecondaryText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ItemSecondaryText.SingleLine">
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>
